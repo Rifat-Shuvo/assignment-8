@@ -7,7 +7,7 @@ const Piecharts = () => {
     let donated = donatedItems.length
     let totalitems = 12
     let remainingItems = totalitems - donated
-    console.log(donated);
+    //console.log(donated);
     const data = [
         { name: "totalDonation", value: donated },
         { name: "RemainigDonation", value: remainingItems }

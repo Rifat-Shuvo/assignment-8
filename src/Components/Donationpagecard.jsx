@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Donationpagecard = ({ donate }) => {
-    console.log(donate);
+    //console.log(donate);
     const { id, card_bg, photo, title, category, price, category_bg, textcol } = donate
     return (
         <div>

@@ -16,7 +16,7 @@ const Donationspage = () => {
     }, [])
     //console.log(donates);
     return (
-        <div>
+        <div className='max-w-7xl mx-auto'>
             {noFound ? <p className='h-[80vh] flex justify-center items-center text-4xl font-medium'>{noFound}</p> :
                 <div>
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6 m-5'>
